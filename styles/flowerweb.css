@@ -71,9 +71,11 @@ body {
 }
 
 /* main section styles */
-main{
+main {
     margin: 0 auto;
+    max-width: 1670px;
 }
+
 /* about section styles */
 .about {
     padding: 130px;
@@ -97,7 +99,7 @@ main{
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
-    
+
 }
 
 .image-pic,
@@ -113,14 +115,16 @@ main{
     height: 538px;
     margin-bottom: 20px;
 }
+
 .image-pic2 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);    
-    width: 460px;   
-    padding: 100px 40px 0px 40px; 
+    background: rgba(71, 125, 17, 0.15);
+    width: 460px;
+    padding: 100px 40px 0px 40px;
     height: 538px;
     margin-bottom: 20px;
 }
+
 .image-pic3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -128,4 +132,17 @@ main{
     padding: 100px 40px 0px 40px;
     height: 538px;
     margin-bottom: 20px;
+}
+
+/* logo section */
+.logo-container {
+    justify-content: space-between;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 230px;
+}
+
+.logo-info {
+    text-align: center;
 }
