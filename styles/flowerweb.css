@@ -17,6 +17,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 80px;
 }
 
 .section-description {
@@ -141,8 +142,92 @@ main {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     padding: 80px 230px;
+    margin-bottom: 100px;
 }
 
 .logo-info {
     text-align: center;
+}
+
+.mid-banner-container {
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1900px;
+}
+
+.mid-banner {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+}
+
+.mid-banner-container .sign-up {
+    align-items: center;
+}
+
+.image-sec {
+    margin-bottom: 50px;
+}
+
+.sixth-section .section-title {
+    margin-top: 250px;
+}
+
+.email-subscribe {
+    text-align: center;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 512px 20px 22px;
+}
+
+.email placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-section {
+    background: #111010;
+}
+
+.footer-greeting {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 120px 800px 0 800px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
